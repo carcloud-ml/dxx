@@ -1,39 +1,39 @@
 #==========================================
-# @ConfigName     moelove自用Clash配置文件
-# @Author            @moemeta0
-# @TgChannel         https://t.me/MoeNode
-# @UpdateTime        2023/11/15
-# @Function          支持手动选择、自动测速、广告屏蔽、兜底分流、按国家分组节点、多机场订阅等等   
-# @ConfigVersion     1.0.20
+启用：true#不使用系统 DNS
+IPV6:true#开启 IPV6
+听：0.0.0.0:53#dns监听
+增强模式：伪ip
+fake-ip-范围：198.18.0.1/16
+- "*.lan"
 #==========================================
 
-port: 7890           # HTTP 代理端口
-socks-port: 7891     # Socks 端口
-redir-port: 7892     # Redir 端口
-mixed-port: 7893     # 混合端口
-allow-lan: true      # 允许局域网连接
-bind-address: "*"    # 地址绑定
-mode: rule           # 规则模式
-log-level: info      # 日志级别
-ipv6: false          # IPV6开关
-external-controller: 127.0.0.1:9090
+- localhost.ptlogin2.qq.com: GIF、JPEG、JPG、MOV、MP4、PNG、SVG或WEBMdxx-+. srv.任天堂. net
+socks-port: 附加文档需要对此存储库的写权限。配置- +.stun.playstation.net
+redir-port: 再试一次在- +.msftconnecttest.com
+mixed-port: 有主要的- +.msftncsi.com
+allow-lan: GIF、JPEG、JPG、MOV、MP4、PNG、SVG或WEBM取消更改- +.xboxlive.com
+bind-address: "*"我们不支持这种文件类型。提交更改。- msftconnecttest.com
+- xbox.*.microsoft.com: 再试一次编辑使用
+log-level: 有预演控制+换挡+m
+ipv6: GIF、JPEG、JPG、MOV、MP4、PNG、SVG或WEBM使用GitHub副驾驶代码快55％切换
+external-controller: 此文件为空。缩进模式:9090
 
-dns:
-  enable: true       # 不使用系统 DNS
-  ipv6: true        # 开启 IPV6
-  listen: 0.0.0.0:53 # dns 监听
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
+#不使用系统 DNS
+#不使用系统 DNS
+  ipv6: 使用一个不空的文件。制表符然后
+#IPV6开关：
+-localhost. ptlogin2. qq. com:GIF、JPEG、JPG、MOV、MP4、PNG、SVG或 WEBMdxx-+。任天堂. net
+socks-port:附加文档需要对此存储库的写权限.
   fake-ip-filter:
     - "*.lan"
-    - localhost.ptlogin2.qq.com
-    - +.srv.nintendo.net
-    - +.stun.playstation.net
-    - +.msftconnecttest.com
-    - +.msftncsi.com
-    - +.xboxlive.com
-    - msftconnecttest.com
-    - xbox.*.microsoft.com
+redir-端口：再试一次在-+.msftconnecttest.com
+混合端口：有主要的-+.msftncsi.com
+混合端口：有主要的-+.msftncsi.com
+allow-lan:GIF、JPEG、JPG、MOV、MP4、PNG、SVG或 WEBM mayoto-+.xboxlive.com
+allow-lan:GIF、JPEG、JPG、MOV、MP4、PNG、SVG或 WEBM mayoto-+.xboxlive.com
+bind-地址：“*”我们不支持这种文件类型 you you.-msftconnecttest. com
+bind-地址：“*”我们不支持这种文件类型 you you.-msftconnecttest. com
+-xbox.*.microsoft.com:再试一次编辑使用
     - "*.battlenet.com.cn"
     - "*.battlenet.com"
     - "*.blzstatic.cn"
